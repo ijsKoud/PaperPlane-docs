@@ -82,7 +82,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 								},
 								{
 									label: "Configuration",
-									to: "/docs/config/overview",
+									to: "/docs/config/basics",
 								},
 								{
 									label: "NGINX Config",
