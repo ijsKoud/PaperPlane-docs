@@ -4,6 +4,7 @@ import Layout from "@theme/Layout";
 import Link from "@docusaurus/Link";
 import styles from "./index.module.css";
 import HomepageFeatures from "../components/HomepageFeatures";
+import HomepagePreview from "../components/HomepagePreview";
 
 function HomepageHeader() {
 	return (
@@ -24,12 +25,11 @@ function HomepageHeader() {
 
 export default function Home() {
 	return (
-		<Layout
-			// title={`${siteConfig.title}`}
-			description="Fast file/shorturl upload server packed with lots of cool features!">
+		<Layout description="Fast file/shorturl upload server packed with lots of cool features!">
 			<HomepageHeader />
 			<main>
 				<HomepageFeatures />
+				<HomepagePreview />
 			</main>
 		</Layout>
 	);
