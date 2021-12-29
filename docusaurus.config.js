@@ -22,7 +22,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 				({
 					docs: {
 						sidebarPath: require.resolve("./sidebars.js"),
-						editUrl: "https://github.com/DaanGamesDG/PaperPlane",
+						editUrl: "https://github.com/DaanGamesDG/PaperPlane-docs/edit/main",
 						remarkPlugins: [[require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }]],
 					},
 					theme: {
