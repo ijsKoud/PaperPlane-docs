@@ -86,7 +86,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 								},
 								{
 									label: "NGINX Config",
-									to: "/docs/nginx",
+									to: "/docs/config/nginx",
 								},
 								{
 									label: "Uploaders",
