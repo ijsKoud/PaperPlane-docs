@@ -39,3 +39,7 @@ node: stop the current session and run `node .` again
 ## Something is broken
 
 If you find a bug or glitch that is not device related, please file a bug report here: https://github.com/DaanGamesDG/paperplane/issues/new
+
+## My ShareX does not upload files anymore
+
+This is probably because you re-generated your token, please download a new config file from the paperplane settings and follow the rest of the guide [here](/docs/uploaders/sharex)
