@@ -14,9 +14,13 @@ Install `git` if you have not already installed it on your machine.
 3. Create a `.env` file and add the following:
 
 ```conf title=".env"
-NEXT_PUBLIC_DOMAIN="the domain name connected to this server"
-ENCRYPTION_KEY="a secure generated password from https://passwordsgenerator.net/plus/"
+NEXT_PUBLIC_DOMAIN="*"
+ENCRYPTION_KEY="**"
 ```
+
+\*: Add your domain name here, make sure not to forget the https:// (e.x: https://cdn.daangamesdg.xyz)
+
+\*\*: Go to a https://passwordsgenerator.net/plus/ and change the length option to 32 characters, after that press generate. Use this as your encryption key, make sure it is **32 characters long**!!
 
 Make sure to change both fields with the correct information, otherwise the application will fail.
 
