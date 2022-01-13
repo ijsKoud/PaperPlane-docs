@@ -43,3 +43,7 @@ If you find a bug or glitch that is not device related, please file a bug report
 ## My ShareX does not upload files anymore
 
 This is probably because you re-generated your token, please download a new config file from the paperplane settings and follow the rest of the guide [here](/docs/uploaders/sharex)
+
+## I get an error while logging in
+
+Errors are not fun, that's why we are here to help you! First of all, open the console (crtl + shift + i => arrow top right corner => console) and check if you see an error. If you see an error like ![](/img/troubleshooting/login-404.png) that means that you either misconfigured your NEXT_PUBLIC_DOMAIN variable or you provided the wrong credentials. If you see a 500 error instead of the 404, that means that you provided an incorrect encryption token. Please visit [this page](/docs/get-started#installation) to see how to obtain a working encryption key. After you re-generated an encryption token, restart your server using "pm2 restart [id] --update-env" if you use pm2 or just "node ." again if you run it using node.
