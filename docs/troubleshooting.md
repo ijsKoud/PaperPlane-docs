@@ -20,7 +20,7 @@ this will create a new user (you will lose all your settings by doing this)
 3. Change the following item in the `.env` file
 
 ```conf title=".env"
-NEXT_PUBLIC_DOMAIN="old.domain.name" <-- change this to your new domain name
+NEXT_PUBLIC_DOMAIN="https://old.domain.name" <-- change this to your new domain name (e.x: https://new.domain.name)
 ```
 
 4. Save the file and run the following command and wait for it to finish:
