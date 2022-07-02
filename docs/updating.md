@@ -1,3 +1,7 @@
+---
+sidebar_position: 3
+---
+
 # Updating
 
 To update PaperPlane, you need to make sure that you did not edit the code on your side. If you did, either reset your changes or don't update at all.
