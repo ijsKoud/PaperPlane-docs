@@ -11,8 +11,8 @@
     </a>
   </p>
 
-  <a href="https://daangamesdg.xyz/discord" target="_blank">
-    <img src="https://daangamesdg.xyz/discord/banner" />
+  <a href="https://ijskoud.dev/discord" target="_blank">
+    <img src="https://ijskoud.dev/discord/banner" />
   </a>
 </div>
 
@@ -20,7 +20,7 @@
 
 ## Information
 
-This is the documentation of [PaperPlane](https://github.com/DaanGamesDG/paperplane), generated from [this repo](https://github.com/diced/zipline-docs) (everything is edited and only the theme is copied)
+This is the documentation website for [PaperPlane](https://ijskoud.dev/github/paperplane). Generated from [this repo](https://github.com/diced/zipline-docs)
 
 ## Contributing
 
@@ -40,18 +40,18 @@ This is the documentation of [PaperPlane](https://github.com/DaanGamesDG/paperpl
 
 ## Author
 
-👤 **DaanGamesDG**
+👤 **ijsKoud**
 
-- Website: https://daangamesdg.xyz/
-- Email: <daan@daangamesdg.xyz>
-- Twitter: [@DaanGamesDG](https://twitter.com/DaanGamesDG)
-- Github: [@DaanGamesDG](https://github.com/DaanGamesDG)
+- Website: https://ijskoud.dev/
+- Email: <github@ijskoud.dev>
+- Twitter: [@ijsKoud](https://twitter.com/ijs_Koud)
+- Github: [@ijsKoud](https://github.com/ijsKoud)
 
 ## Donate
 
-This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://paypal.me/daangamesdg) or to [Ko-Fi](https://daangamesdg.xyz/kofi). Thanks in advance! I really appriciate it <3
+This will always be open source project, even if I don't receive donations. But there are still people out there that want to donate, so if you do here is the link [PayPal](https://paypal.me/daangamesdg) or to [Ko-Fi](https://ijskoud.dev/kofi). Thanks in advance! I really appriciate it <3
 
-## Lisence
+## License
 
 Project is licensed under the © [**MIT License**](/LICENSE)
 

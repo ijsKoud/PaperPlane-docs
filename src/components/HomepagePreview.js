@@ -4,24 +4,40 @@ import Link from "@docusaurus/Link";
 
 const FeatureList = [
 	{
+		title: "Landing",
+		img: "/img/landing/preview/landing.png",
+	},
+	{
 		title: "Dashboard",
 		img: "/img/landing/preview/dashboard.png",
-	},
-	{
-		title: "Upload page",
-		img: "/img/landing/preview/upload.png",
-	},
-	{
-		title: "Login",
-		img: "/img/landing/preview/login.png",
 	},
 	{
 		title: "Settings",
 		img: "/img/landing/preview/settings.png",
 	},
 	{
-		title: "Embed Settings",
-		img: "/img/landing/preview/embed-settings.png",
+		title: "Login",
+		img: "/img/landing/preview/login.png",
+	},
+	{
+		title: "File Login",
+		img: "/img/landing/preview/file-login.png",
+	},
+	{
+		title: "Upload Modal",
+		img: "/img/landing/preview/upload-modal.png",
+	},
+	{
+		title: "URL Modal",
+		img: "/img/landing/preview/url-modal.png",
+	},
+	{
+		title: "URL Update Modal",
+		img: "/img/landing/preview/url-update-modal.png",
+	},
+	{
+		title: "File Update Modal",
+		img: "/img/landing/preview/file-update-modal.png",
 	},
 ];
 

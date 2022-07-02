@@ -10,7 +10,7 @@ function HomepageHeader() {
 	return (
 		<header className={clsx("hero hero--dark-blue", styles.heroBanner)}>
 			<div className="container">
-				<img src="img/favicon.ico" />
+				<img src="img/logo.png" />
 				<h1 className="hero__title">PaperPlane</h1>
 				<h2>Fast file/shorturl upload server packed with lots of cool features!</h2>
 				<div className={styles.buttons}>

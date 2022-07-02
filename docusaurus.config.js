@@ -6,13 +6,13 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 (
 	module.exports = {
 		title: "PaperPlane",
-		tagline: "Fast file/shorturl upload server packed with lots of cool features!",
-		url: "https://paperplane.daangamesdg.xyz",
+		tagline: "File uploading. URL Shortening. Protected views.",
+		url: "https://paperplane.ijskoud.dev/",
 		baseUrl: "/",
 		onBrokenLinks: "throw",
 		onBrokenMarkdownLinks: "warn",
 		favicon: "img/favicon.ico",
-		organizationName: "DaanGamesDG", // Usually your GitHub org/user name.
+		organizationName: "ijsKoud", // Usually your GitHub org/user name.
 		projectName: "PaperPlane", // Usually your repo name.
 
 		presets: [
@@ -22,7 +22,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 				({
 					docs: {
 						sidebarPath: require.resolve("./sidebars.js"),
-						editUrl: "https://github.com/DaanGamesDG/PaperPlane-docs/edit/main",
+						editUrl: "https://github.com/ijsKoud/PaperPlane-docs/edit/main",
 						remarkPlugins: [[require("@docusaurus/remark-plugin-npm2yarn"), { sync: true }]],
 					},
 					theme: {
@@ -53,7 +53,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 						},
 						{
 							type: "doc",
-							docId: "config/basics",
+							docId: "config/application",
 							position: "left",
 							label: "Configuration",
 						},
@@ -64,7 +64,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							label: "Uploaders",
 						},
 						{
-							href: "https://github.com/DaanGamesDG/PaperPlane",
+							href: "https://github.com/ijsKoud/PaperPlane",
 							label: "GitHub",
 							position: "right",
 						},
@@ -82,7 +82,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 								},
 								{
 									label: "Configuration",
-									to: "/docs/config/basics",
+									to: "/docs/config/application",
 								},
 								{
 									label: "NGINX Config",
@@ -99,20 +99,20 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 							items: [
 								{
 									label: "Discord",
-									href: "https://daangamesdg.xyz/discord",
+									href: "https://ijskoud.dev/discord",
 								},
 								{
 									label: "GitHub",
-									href: "https://github.com/DaanGamesDG/PaperPlane",
+									href: "https://github.com/ijsKoud/PaperPlane",
 								},
 								{
 									label: "GitHub Docs",
-									href: "https://github.com/DaanGamesDG/PaperPlane-docs",
+									href: "https://github.com/ijsKoud/PaperPlane-docs",
 								},
 							],
 						},
 					],
-					copyright: `Copyright © ${new Date().getFullYear()} DaanGamesDG`,
+					copyright: `Copyright © ${new Date().getFullYear()} ijsKoud`,
 				},
 				prism: {
 					theme: lightCodeTheme,

@@ -1,4 +1,14 @@
+---
+sidebar_position: 3
+---
+
 # Updating
+
+:::info
+
+If you use Docker, you can enable [autoupdating](/docs/get-started#optional-enable-autoupdating). If you already enabled it, please wait for Watchtower to update your application.
+
+:::
 
 To update PaperPlane, you need to make sure that you did not edit the code on your side. If you did, either reset your changes or don't update at all.
 
@@ -7,6 +17,10 @@ To update PaperPlane, you need to make sure that you did not edit the code on yo
 1. Go to the PaperPlane directory
 2. Run `git pull`, this will pull the new code from GitHub
 3. Run the build command:
+
+```bash
+yarn install
+```
 
 ```bash npm2yarn
 npm run build
@@ -24,6 +38,10 @@ node: stop the current session and run `node .` again
 1. Download the code from GitHub
 2. Drag and drop all the files from the downloaded folder into the PaperPlane folder
 3. Run the build command:
+
+```bash
+yarn install
+```
 
 ```bash npm2yarn
 npm run build
