@@ -9,7 +9,8 @@ If you use them correctly, it will eventually look something like this:
 
 ![discord preview](/img/discord-preview.png)
 
-| Notation     | Description               |
-| ------------ | ------------------------- |
-| {user}       | The name of the CDN owner |
-| {file_title} | The name of the file      |
+| Notation    | Description                 |
+| ----------- | --------------------------- |
+| {file_size} | The size of the file        |
+| {file_name} | The name of the file        |
+| {file_date} | The upload date of the file |
