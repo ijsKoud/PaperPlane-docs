@@ -26,6 +26,10 @@ html[data-theme="dark"] {
 	--ifm-navbar-link-hover-color: #8f8f90;
 }
 
+html[data-theme="light"] {
+	--ifm-background-surface-color: #c9c9c9;
+}
+
 .docusaurus-highlight-code-line {
 	background-color: rgba(0, 0, 0, 0.1);
 	display: block;
