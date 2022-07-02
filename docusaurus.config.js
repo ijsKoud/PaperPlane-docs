@@ -53,7 +53,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 						},
 						{
 							type: "doc",
-							docId: "config/basics",
+							docId: "config/application",
 							position: "left",
 							label: "Configuration",
 						},

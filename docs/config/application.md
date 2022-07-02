@@ -1,4 +1,4 @@
-# Basics
+# Application
 
 Here you can find all the available settings for PaperPlane, you need to put them in your `.env` file in order to work. When you change a setting, make sure you follow [this guide](/docs/config/basics#rebuilding-the-application)
 
@@ -6,7 +6,6 @@ Here you can find all the available settings for PaperPlane, you need to put the
 
 | Setting               | Required           | Value                                                      | Description                                                                     |
 | --------------------- | ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| NEXT_PUBLIC_DOMAIN    | :white_check_mark: | string (ex: https://cdn.daangamesdg.xyz)                   | The domain connected to PaperPlane                                              |
 | ENCRYPTION_KEY        | :white_check_mark: | string (get one from https://passwordsgenerator.net/plus/) | The encryption key used to encrypt session tokens                               |
 | PORT                  | :x:                | number (a usable port)                                     | The port the server is listening to                                             |
 | ALLOWED_EXTENSIONS    | :x:                | string (every extension separated with a ,)                | The extensions that are allowed when uploading files to the cdn                 |
