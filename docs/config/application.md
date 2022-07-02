@@ -1,20 +1,30 @@
+---
+sidebar_position: 1
+---
+
 # Application
 
 Here you can find all the available settings for PaperPlane, you need to put them in your `.env` file in order to work. When you change a setting, make sure you follow [this guide](/docs/config/basics#rebuilding-the-application)
 
 ## Available Settings
 
-| Setting               | Required           | Value                                                      | Description                                                                     |
-| --------------------- | ------------------ | ---------------------------------------------------------- | ------------------------------------------------------------------------------- |
-| ENCRYPTION_KEY        | :white_check_mark: | string (get one from https://passwordsgenerator.net/plus/) | The encryption key used to encrypt session tokens                               |
-| PORT                  | :x:                | number (a usable port)                                     | The port the server is listening to                                             |
-| ALLOWED_EXTENSIONS    | :x:                | string (every extension separated with a ,)                | The extensions that are allowed when uploading files to the cdn                 |
-| MAX_FILES_PER_REQUEST | :x:                | number (defaults to Infinity)                              | The maximum amount of files someone can upload per request                      |
-| MAX_FILE_SIZE         | :x:                | number (the amount in bytes)                               | The maximum file size                                                           |
-| CUSTOM_FILE_NAME      | :x:                | boolean (defaults to false)                                | If the name of the file should be used as name instead of a random generated id |
-| FILE_NAME_LENGTH      | :x:                | number (defaults to 8)                                     | The length the name should be when it is automatically generated                |
+| Setting               | Required           | Value                                                      | Description                                                       |
+| --------------------- | ------------------ | ---------------------------------------------------------- | ----------------------------------------------------------------- |
+| ENCRYPTION_KEY        | :white_check_mark: | string (get one from https://passwordsgenerator.net/plus/) | The encryption key used to encrypt session tokens                 |
+| NAME_TYPE             | :x:                | id, name, zerowidth -> defaults to id                      | The name generation type                                          |
+| NAME_LENGTH           | :x:                | number (defaults to 10)                                    | The length the name should be when it is automatically generated  |
+| PORT                  | :x:                | number (a usable port)                                     | The port the server is listening to                               |
+| EXTENSIONS            | :x:                | string (every extension separated with a ,)                | The file extensions that aren't allowed to be uploaded to the cdn |
+| MAX_FILES_PER_REQUEST | :x:                | number (defaults to Infinity)                              | The maximum amount of files someone can upload per request        |
+| MAX_FILE_SIZE         | :x:                | number (the amount in bytes)                               | The maximum file size                                             |
 
 ## Rebuilding the application
+
+:::info
+
+If you use docker, restart the application using `Docker restart <id>`. The id being the name of the container (if you followed the guide the name will be paperplane).
+
+:::
 
 1. Build the application
 
