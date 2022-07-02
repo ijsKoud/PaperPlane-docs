@@ -4,7 +4,7 @@ sidebar_position: 1
 
 # Application
 
-Here you can find all the available settings for PaperPlane, you need to put them in your `.env` file in order to work. When you change a setting, make sure you follow [this guide](/docs/config/basics#rebuilding-the-application)
+Here you can find all the available settings for PaperPlane, you need to put them in your `.env` file in order to work. When you change a setting, make sure you follow [this guide](/docs/config/application#rebuilding-the-application)
 
 ## Available Settings
 
