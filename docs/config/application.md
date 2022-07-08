@@ -18,7 +18,7 @@ Here you can find all the available settings for PaperPlane, you need to put the
 | MAX_FILES_PER_REQUEST | :x:                | number (defaults to Infinity)                              | The maximum amount of files someone can upload per request        |
 | MAX_FILE_SIZE         | :x:                | number (the amount in bytes)                               | The maximum file size                                             |
 | SECURE         | :x:                | Boolean (defaults to true)                              | If the domain is secured with ssl or not                                             |
-| AUTO_MIGRATE         | :x:                | number (the time in seconds)                               | The time between every file migration                                             |
+| AUTO_MIGRATION         | :x:                | number (the time in seconds)                               | The time between every file migration                                             |
 
 ## Rebuilding the application
 
