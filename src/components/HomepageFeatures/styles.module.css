@@ -1,11 +1,20 @@
 .features {
-  display: flex;
-  align-items: center;
-  padding: 2rem 0;
-  width: 100%;
+	display: flex;
+	align-items: center;
+	padding: 2rem 0;
+	width: 100%;
 }
 
-.featureSvg {
-  height: 200px;
-  width: 200px;
+.featurelist {
+	display: flex;
+	flex-direction: column;
+	gap: 1rem;
+}
+
+.image {
+	border-radius: 12px;
+}
+
+.anchor:hover {
+	outline: 2px solid #549bff;
 }

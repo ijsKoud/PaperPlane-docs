@@ -1,70 +1,92 @@
-import clsx from 'clsx';
-import Heading from '@theme/Heading';
-import styles from './styles.module.css';
+import Heading from "@theme/Heading";
+import styles from "./styles.module.css";
 
-type FeatureItem = {
-  title: string;
-  Svg: React.ComponentType<React.ComponentProps<'svg'>>;
-  description: JSX.Element;
-};
+const previews = [
+	{
+		img: "https://cdn.ijskoud.dev/files/5G48qa0Cr2Xl.png",
+		title: "Home page",
+		alt: "Home page"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/pKpgyFzrBfIV.png",
+		title: "Error page",
+		alt: "error page"
+	},
 
-const FeatureList: FeatureItem[] = [
-  {
-    title: 'Easy to Use',
-    Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
-    description: (
-      <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
-      </>
-    ),
-  },
-  {
-    title: 'Focus on What Matters',
-    Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
-    description: (
-      <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
-      </>
-    ),
-  },
-  {
-    title: 'Powered by React',
-    Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
-    description: (
-      <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
-      </>
-    ),
-  },
+	// dashboard
+	{
+		img: "https://cdn.ijskoud.dev/files/LeGbN5Vvfg2a.png",
+		title: "Dashboard home page",
+		alt: "Dashboard home"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/sVUnJ0q5KaKt.png",
+		title: "Dashboard files page",
+		alt: "Dashboard files"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/JN8b4PAu8cza.png",
+		title: "Dashboard shorturls page",
+		alt: "Dashboard shorturls"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/bR51cUnDVO6S.png",
+		title: "Dashboard pastebins page",
+		alt: "Dashboard pastebins"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/DJODKmYSi9nw.png",
+		title: "Dashboard settings page",
+		alt: "Dashboard settings"
+	},
+
+	// admin panel
+	{
+		img: "https://cdn.ijskoud.dev/files/1fpBiZ3RFQcO.png",
+		title: "Admin Panel home page",
+		alt: "Admin Panel home"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/DkUxVp6GkhPi.png",
+		title: "Admin Panel users page",
+		alt: "Admin Panel users"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/bEpxupo4PmUc.png",
+		title: "Admin Panel settings page",
+		alt: "Admin Panel settings"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/9Nt155oB4dpE.png",
+		title: "",
+		alt: "Admin Panel settings"
+	},
+	{
+		img: "https://cdn.ijskoud.dev/files/8KyUGj0gDfRD.png",
+		title: "",
+		alt: "Admin Panel settings"
+	}
 ];
 
-function Feature({title, Svg, description}: FeatureItem) {
-  return (
-    <div className={clsx('col col--4')}>
-      <div className="text--center">
-        <Svg className={styles.featureSvg} role="img" />
-      </div>
-      <div className="text--center padding-horiz--md">
-        <Heading as="h3">{title}</Heading>
-        <p>{description}</p>
-      </div>
-    </div>
-  );
-}
-
 export default function HomepageFeatures(): JSX.Element {
-  return (
-    <section className={styles.features}>
-      <div className="container">
-        <div className="row">
-          {FeatureList.map((props, idx) => (
-            <Feature key={idx} {...props} />
-          ))}
-        </div>
-      </div>
-    </section>
-  );
+	return (
+		<section className={styles.features}>
+			<div className="container">
+				<Heading as="h1" style={{ lineHeight: 1, marginBottom: 0 }}>
+					Preview
+				</Heading>
+				<p>Want to know how paperplane looks like? Look no further, here you can see how every page looks like.</p>
+				<div className={styles.featurelist}>
+					{previews.map((preview) => (
+						<div>
+							<Heading as="h4">{preview.title}</Heading>
+							<a className={styles.anchor} href={preview.img} target="_blank">
+								<img className={styles.image} src={preview.img} alt={preview.alt} />
+							</a>
+						</div>
+					))}
+				</div>
+			</div>
+		</section>
+	);
 }
