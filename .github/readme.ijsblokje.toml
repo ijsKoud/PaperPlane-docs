@@ -1,0 +1,8 @@
+[project]
+icon = "https://cdn.ijskoud.dev/logo/text.png"
+icon_width = "500px"
+version = "2.0.0"
+
+[variables]
+information = "Documentation for [paperplane](https://github.com/ijskoud/paperplane) created with Docusaurus 🦕"
+installation = "N/A"
