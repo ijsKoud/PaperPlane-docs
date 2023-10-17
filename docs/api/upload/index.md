@@ -1,3 +1,7 @@
+---
+title: upload
+---
+
 # /api/v1/upload
 
 :::caution
