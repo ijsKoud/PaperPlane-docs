@@ -17,12 +17,12 @@ This endpoint requires [authentication](/docs/api/intro#authentication) using an
 
 To upload more than one file, append multiple `file` fields with a file.
 
-| Field      | Type      | Multiple | Description                    |
-| ---------- | --------- | -------- | ------------------------------ |
-| `file`     | `Blob`    | ✅       | The file(s) you want to upload |
-| `visible`  | `boolean` | ❌       | Visibility status              |
-| `name`     | `string`  | ❌       | A custom file name\*           |
-| `password` | `string`  | ❌       | File password\*                |
+| Field      | Type      | Multiple | Required | Description                    |
+| ---------- | --------- | -------- | -------- | ------------------------------ |
+| `file`     | `Blob`    | ✅       | ✅       | The file(s) you want to upload |
+| `visible`  | `boolean` | ❌       | ❌       | Visibility status              |
+| `name`     | `string`  | ❌       | ❌       | A custom file name\*           |
+| `password` | `string`  | ❌       | ❌       | File password\*                |
 
 _\* The following fields are ignored if multiple files are provided_
 
