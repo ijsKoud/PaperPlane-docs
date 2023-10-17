@@ -80,7 +80,7 @@ export default function HomepageFeatures(): JSX.Element {
 					{previews.map((preview) => (
 						<div>
 							<Heading as="h4">{preview.title}</Heading>
-							<a className={styles.anchor} href={preview.img} target="_blank">
+							<a className={styles.anchor} href={preview.img} rel="noopener noreferrer" target="_blank">
 								<img className={styles.image} src={preview.img} alt={preview.alt} />
 							</a>
 						</div>
