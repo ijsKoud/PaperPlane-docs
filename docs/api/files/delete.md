@@ -10,7 +10,7 @@ This endpoint requires [authentication](/docs/api/intro#authentication) using an
 
 :::
 
-## GET: Delete a file
+## DELETE: Delete a file
 
 ### Headers
 
