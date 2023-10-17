@@ -77,8 +77,8 @@ export default function HomepageFeatures(): JSX.Element {
 				</Heading>
 				<p>Want to know how paperplane looks like? Look no further, here you can see how every page looks like.</p>
 				<div className={styles.featurelist}>
-					{previews.map((preview) => (
-						<div>
+					{previews.map((preview, key) => (
+						<div key={key}>
 							<Heading as="h4">{preview.title}</Heading>
 							<a className={styles.anchor} href={preview.img} rel="noopener noreferrer" target="_blank">
 								<img className={styles.image} src={preview.img} alt={preview.alt} />
