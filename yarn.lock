@@ -4168,6 +4168,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clsx@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "clsx@npm:2.0.0"
+  checksum: a2cfb2351b254611acf92faa0daf15220f4cd648bdf96ce369d729813b85336993871a4bf6978ddea2b81b5a130478339c20d9d0b5c6fc287e5147f0c059276e
+  languageName: node
+  linkType: hard
+
 "color-convert@npm:^1.9.0":
   version: 1.9.3
   resolution: "color-convert@npm:1.9.3"
@@ -8776,7 +8783,7 @@ __metadata:
     "@docusaurus/tsconfig": 3.0.0-beta.0
     "@mdx-js/react": ^2.3.0
     "@snowcrystals/prettier-config": ^1.0.0
-    clsx: ^1.2.1
+    clsx: ^2.0.0
     prettier: ^3.0.3
     prism-react-renderer: ^1.3.5
     react: ^18.2.0
