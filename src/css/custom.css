@@ -4,6 +4,12 @@
 	font-family: "Inter", sans-serif;
 }
 
+code,
+code span,
+code p {
+	font: var(--ifm-code-font-size) / var(--ifm-pre-line-height) var(--ifm-font-family-monospace) !important;
+}
+
 a {
 	color: #549bff;
 }
