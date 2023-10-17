@@ -1,8 +1,10 @@
 ---
-sidebar_position: 1
+sidebar_position: 2
+title: ☁️ Installation
+id: installation
 ---
 
-# Installation
+# ☁️ Installation
 
 You can install **paperplane** in two different ways, we recommend using [**docker**](https://docker.io) to install paperplane but you can use **git** as well.
 
