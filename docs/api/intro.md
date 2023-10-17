@@ -2,46 +2,32 @@
 sidebar_position: 1
 ---
 
-# Tutorial Intro
+# API Reference
 
-Let's discover **Docusaurus in less than 5 minutes**.
+## Errors
 
-## Getting Started
+When the API endpoint returns a status other than `200 (OK)` a JSON object will be returned containing the errors.
 
-Get started by **creating a new site**.
+| Field     | Type     | Description                               |
+| --------- | -------- | ----------------------------------------- |
+| `field`   | `string` | The body property that caused this error  |
+| `code`    | `string` | The error code associated with this error |
+| `message` | `string` | The error message                         |
 
-Or **try Docusaurus immediately** with **[docusaurus.new](https://docusaurus.new)**.
+Below is an example of a response that can be returned:
 
-### What you'll need
-
--   [Node.js](https://nodejs.org/en/download/) version 16.14 or above:
-    -   When installing Node.js, you are recommended to check all checkboxes related to dependencies.
-
-## Generate a new site
-
-Generate a new Docusaurus site using the **classic template**.
-
-The classic template will automatically be added to your project after you run the command:
-
-```bash
-npm init docusaurus@latest my-website classic
+```json
+{
+	"errors": [
+		{
+			"field": "name",
+			"code": "FILE_NOT_FOUND",
+			"message": "A file with the provided name does not exist"
+		}
+	]
+}
 ```
 
-You can type this command into Command Prompt, Powershell, Terminal, or any other integrated terminal of your code editor.
+## Authentication
 
-The command also installs all necessary dependencies you need to run Docusaurus.
-
-## Start your site
-
-Run the development server:
-
-```bash
-cd my-website
-npm run start
-```
-
-The `cd` command changes the directory you're working with. In order to work with your newly created Docusaurus site, you'll need to navigate the terminal there.
-
-The `npm run start` command builds your website locally and serves it through a development server, ready for you to view at http://localhost:3000/.
-
-Open `docs/intro.md` (this page) and edit some lines: the site **reloads automatically** and displays your changes.
+Some routes require an `API key` in the `Authentication` header. To get an API key, head over to the /dashboard/settings page on your paperplane dashboard and create a key.
