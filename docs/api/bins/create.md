@@ -21,7 +21,7 @@ This endpoint requires [authentication](/docs/api/intro#authentication) using an
 | Field       | Type      | Required | Description                                              |
 | ----------- | --------- | -------- | -------------------------------------------------------- |
 | `name`      | `string`  | ❌       | The name of the pastebin                                 |
-| `visible`   | `boolean` | ❌       | Whether the pastebin should be readable by anyone or not |
+| `visible`   | `boolean` | ✅       | Whether the pastebin should be readable by anyone or not |
 | `content`   | `string`  | ✅       | The pastebin content                                     |
 | `highlight` | `string`  | ✅       | The pastebin content type                                |
 | `password`  | `string`  | ❌       | A password to add to the pastebin                        |
@@ -30,7 +30,7 @@ This endpoint requires [authentication](/docs/api/intro#authentication) using an
 
 | Field       | Type      | Description                                              |
 | ----------- | --------- | -------------------------------------------------------- |
-| `url`       | `string`  | The name of the pastebin                                 |
+| `url`       | `string`  | The url that leads to the pastebin                       |
 | `visible`   | `boolean` | Whether the pastebin should be readable by anyone or not |
 | `password`  | `boolean` | Whether password protection is enabled or not            |
 | `highlight` | `string`  | The pastebin content type\*                              |
