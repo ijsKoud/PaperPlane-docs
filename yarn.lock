@@ -1831,6 +1831,25 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/module-type-aliases@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@docusaurus/module-type-aliases@npm:3.0.0"
+  dependencies:
+    "@docusaurus/react-loadable": 5.5.2
+    "@docusaurus/types": 3.0.0
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    "@types/react-router-config": "*"
+    "@types/react-router-dom": "*"
+    react-helmet-async: "*"
+    react-loadable: "npm:@docusaurus/react-loadable@5.5.2"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 4f7811b69eff1201783133681382880c9ccd6766e91d876e607551c314d8bcf0adf21e3c8014e36684681e084394193f9ee5f3aa369e033fca3fab1594f003a5
+  languageName: node
+  linkType: hard
+
 "@docusaurus/module-type-aliases@npm:3.0.0-rc.1":
   version: 3.0.0-rc.1
   resolution: "@docusaurus/module-type-aliases@npm:3.0.0-rc.1"
@@ -2141,10 +2160,29 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/tsconfig@npm:3.0.0-rc.1":
-  version: 3.0.0-rc.1
-  resolution: "@docusaurus/tsconfig@npm:3.0.0-rc.1"
-  checksum: 559b6507019c82fb5e39c939d18d90bf8e34e9f0e645fbc0d9987047e04338944da5525978aa1f219f60a95cd0d2ae94c9e8cd5c4456b416184537f283bd50e2
+"@docusaurus/tsconfig@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@docusaurus/tsconfig@npm:3.0.0"
+  checksum: 06a9b33b438c482057a1e4f1654cc350dd1a838a81510e7564f7b1eab6615c63465d39859592a89394e7070d8d523421a80dee6ffb625bb71c158c3c9f4c8098
+  languageName: node
+  linkType: hard
+
+"@docusaurus/types@npm:3.0.0":
+  version: 3.0.0
+  resolution: "@docusaurus/types@npm:3.0.0"
+  dependencies:
+    "@types/history": ^4.7.11
+    "@types/react": "*"
+    commander: ^5.1.0
+    joi: ^17.9.2
+    react-helmet-async: ^1.3.0
+    utility-types: ^3.10.0
+    webpack: ^5.88.1
+    webpack-merge: ^5.9.0
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 7880d159c8bbd43af9b727f64ba4d19f18db5654ac8fae6a4bfda2f686a88221f4f9038a7331a0144d19cf43718f6ef3f1618a9947fba0f349663229c055610e
   languageName: node
   linkType: hard
 
@@ -8929,9 +8967,9 @@ __metadata:
   resolution: "paperplane-docs@workspace:."
   dependencies:
     "@docusaurus/core": 3.0.0-rc.1
-    "@docusaurus/module-type-aliases": 3.0.0-rc.1
+    "@docusaurus/module-type-aliases": 3.0.0
     "@docusaurus/preset-classic": 3.0.0-rc.1
-    "@docusaurus/tsconfig": 3.0.0-rc.1
+    "@docusaurus/tsconfig": 3.0.0
     "@mdx-js/react": ^3.0.0
     "@snowcrystals/prettier-config": ^1.0.0
     clsx: ^2.0.0
