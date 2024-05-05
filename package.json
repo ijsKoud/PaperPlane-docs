@@ -24,8 +24,8 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
-    "@docusaurus/module-type-aliases": "3.2.1",
-    "@docusaurus/tsconfig": "3.2.1",
+    "@docusaurus/module-type-aliases": "3.3.2",
+    "@docusaurus/tsconfig": "3.3.2",
     "@snowcrystals/prettier-config": "^1.0.0",
     "prettier": "^3.2.5",
     "typescript": "~5.4.5"
