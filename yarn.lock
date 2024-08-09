@@ -2980,6 +2980,24 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@docusaurus/module-type-aliases@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@docusaurus/module-type-aliases@npm:3.5.0"
+  dependencies:
+    "@docusaurus/types": "npm:3.5.0"
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+    "@types/react-router-config": "npm:*"
+    "@types/react-router-dom": "npm:*"
+    react-helmet-async: "npm:*"
+    react-loadable: "npm:@docusaurus/react-loadable@6.0.0"
+  peerDependencies:
+    react: "*"
+    react-dom: "*"
+  checksum: 10c0/1ea59ea41d4f2ee1c31f72528fdd45df87a1d44c6e35d541b4cfdc039af667943729edb861c163aee226aed491b376398ee3f131e2cc67cb124eb02bdda70526
+  languageName: node
+  linkType: hard
+
 "@docusaurus/plugin-content-blog@npm:3.4.0":
   version: 3.4.0
   resolution: "@docusaurus/plugin-content-blog@npm:3.4.0"
@@ -3260,10 +3278,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/tsconfig@npm:3.4.0":
-  version: 3.4.0
-  resolution: "@docusaurus/tsconfig@npm:3.4.0"
-  checksum: 10c0/62b992e3f4d941de88ef5a753c677268ced75d83acd48a04bb06a1852be915d058af6f9508b87c3dfd59da0cbb6ee185dd3cba021eb66f115ce4b96585709903
+"@docusaurus/tsconfig@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@docusaurus/tsconfig@npm:3.5.0"
+  checksum: 10c0/aff24a6339ed7a2a0a4c4c92f0b333a61c8ac5f0c3f0f676c50af5c085529a75587fc6080abf8adb021a4589b0be13659e860d9fd3138e9d1b48b85e50cde1cc
   languageName: node
   linkType: hard
 
@@ -3284,6 +3302,26 @@ __metadata:
     react: ^18.0.0
     react-dom: ^18.0.0
   checksum: 10c0/c86b95dfbf02db6faa9bb4d6c552d54f2e57924a95937cff6f1884e0ef66f7bbaf84e645fffa229f2571fea6ee469d3dd15abff20f81f7dc886ad38c4c79cbdb
+  languageName: node
+  linkType: hard
+
+"@docusaurus/types@npm:3.5.0":
+  version: 3.5.0
+  resolution: "@docusaurus/types@npm:3.5.0"
+  dependencies:
+    "@mdx-js/mdx": "npm:^3.0.0"
+    "@types/history": "npm:^4.7.11"
+    "@types/react": "npm:*"
+    commander: "npm:^5.1.0"
+    joi: "npm:^17.9.2"
+    react-helmet-async: "npm:^1.3.0"
+    utility-types: "npm:^3.10.0"
+    webpack: "npm:^5.88.1"
+    webpack-merge: "npm:^5.9.0"
+  peerDependencies:
+    react: ^18.0.0
+    react-dom: ^18.0.0
+  checksum: 10c0/6a30b00a071f276588b3791b5ead67329c0339354bf307880abe3f70d7f4c0b283dc5b8a01a2f73349a0ffec3db1485f32f4a8cbce4934dc6f59eca255865ed1
   languageName: node
   linkType: hard
 
@@ -10047,9 +10085,9 @@ __metadata:
   resolution: "paperplane-docs@workspace:."
   dependencies:
     "@docusaurus/core": "npm:3.4.0"
-    "@docusaurus/module-type-aliases": "npm:3.4.0"
+    "@docusaurus/module-type-aliases": "npm:3.5.0"
     "@docusaurus/preset-classic": "npm:3.4.0"
-    "@docusaurus/tsconfig": "npm:3.4.0"
+    "@docusaurus/tsconfig": "npm:3.5.0"
     "@mdx-js/react": "npm:^3.0.1"
     "@snowcrystals/prettier-config": "npm:^1.0.0"
     clsx: "npm:^2.1.1"
@@ -10057,7 +10095,7 @@ __metadata:
     prism-react-renderer: "npm:^1.3.5"
     react: "npm:^18.3.1"
     react-dom: "npm:^18.3.1"
-    typescript: "npm:~5.5.3"
+    typescript: "npm:~5.5.4"
   languageName: unknown
   linkType: soft
 
@@ -12426,23 +12464,23 @@ __metadata:
   languageName: node
   linkType: hard
 
-"typescript@npm:~5.5.3":
-  version: 5.5.3
-  resolution: "typescript@npm:5.5.3"
+"typescript@npm:~5.5.4":
+  version: 5.5.4
+  resolution: "typescript@npm:5.5.4"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/f52c71ccbc7080b034b9d3b72051d563601a4815bf3e39ded188e6ce60813f75dbedf11ad15dd4d32a12996a9ed8c7155b46c93a9b9c9bad1049766fe614bbdd
+  checksum: 10c0/422be60f89e661eab29ac488c974b6cc0a660fb2228003b297c3d10c32c90f3bcffc1009b43876a082515a3c376b1eefcce823d6e78982e6878408b9a923199c
   languageName: node
   linkType: hard
 
-"typescript@patch:typescript@npm%3A~5.5.3#optional!builtin<compat/typescript>":
-  version: 5.5.3
-  resolution: "typescript@patch:typescript@npm%3A5.5.3#optional!builtin<compat/typescript>::version=5.5.3&hash=379a07"
+"typescript@patch:typescript@npm%3A~5.5.4#optional!builtin<compat/typescript>":
+  version: 5.5.4
+  resolution: "typescript@patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"
   bin:
     tsc: bin/tsc
     tsserver: bin/tsserver
-  checksum: 10c0/911c7811d61f57f07df79c4a35f56a0f426a65426a020e5fcd792f66559f399017205f5f10255329ab5a3d8c2d1f1d19530aeceffda70758a521fae1d469432e
+  checksum: 10c0/73409d7b9196a5a1217b3aaad929bf76294d3ce7d6e9766dd880ece296ee91cf7d7db6b16c6c6c630ee5096eccde726c0ef17c7dfa52b01a243e57ae1f09ef07
   languageName: node
   linkType: hard
 
