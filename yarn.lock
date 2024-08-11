@@ -2980,11 +2980,11 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/module-type-aliases@npm:3.5.0":
-  version: 3.5.0
-  resolution: "@docusaurus/module-type-aliases@npm:3.5.0"
+"@docusaurus/module-type-aliases@npm:3.5.1":
+  version: 3.5.1
+  resolution: "@docusaurus/module-type-aliases@npm:3.5.1"
   dependencies:
-    "@docusaurus/types": "npm:3.5.0"
+    "@docusaurus/types": "npm:3.5.1"
     "@types/history": "npm:^4.7.11"
     "@types/react": "npm:*"
     "@types/react-router-config": "npm:*"
@@ -2994,7 +2994,7 @@ __metadata:
   peerDependencies:
     react: "*"
     react-dom: "*"
-  checksum: 10c0/1ea59ea41d4f2ee1c31f72528fdd45df87a1d44c6e35d541b4cfdc039af667943729edb861c163aee226aed491b376398ee3f131e2cc67cb124eb02bdda70526
+  checksum: 10c0/4ffac163da4887230759c273eddde0f34ddee65c1f26ef0ee53efca4aa98017481e94fa0d56b8240871bf11ca330401d128508adfc679526b18329db46c2a76b
   languageName: node
   linkType: hard
 
@@ -3278,10 +3278,10 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/tsconfig@npm:3.5.0":
-  version: 3.5.0
-  resolution: "@docusaurus/tsconfig@npm:3.5.0"
-  checksum: 10c0/aff24a6339ed7a2a0a4c4c92f0b333a61c8ac5f0c3f0f676c50af5c085529a75587fc6080abf8adb021a4589b0be13659e860d9fd3138e9d1b48b85e50cde1cc
+"@docusaurus/tsconfig@npm:3.5.1":
+  version: 3.5.1
+  resolution: "@docusaurus/tsconfig@npm:3.5.1"
+  checksum: 10c0/db21721dab74e410a1d435f207d5e2e7ea590eefc39e158ef539e91f9bfa10046fca0a0afb83d1ccd78d5a0281a82fc3c005461ca785f1d04298c882fdf40c3e
   languageName: node
   linkType: hard
 
@@ -3305,9 +3305,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@docusaurus/types@npm:3.5.0":
-  version: 3.5.0
-  resolution: "@docusaurus/types@npm:3.5.0"
+"@docusaurus/types@npm:3.5.1":
+  version: 3.5.1
+  resolution: "@docusaurus/types@npm:3.5.1"
   dependencies:
     "@mdx-js/mdx": "npm:^3.0.0"
     "@types/history": "npm:^4.7.11"
@@ -3321,7 +3321,7 @@ __metadata:
   peerDependencies:
     react: ^18.0.0
     react-dom: ^18.0.0
-  checksum: 10c0/6a30b00a071f276588b3791b5ead67329c0339354bf307880abe3f70d7f4c0b283dc5b8a01a2f73349a0ffec3db1485f32f4a8cbce4934dc6f59eca255865ed1
+  checksum: 10c0/34c6816bea33125ffaf6986ce14d09b94af3dc9f41a92aa2bb25ef42bcdf6af0f182f3e35a11c43f106458d3caf93b184bacb982ec1c0eee85fcd4c9b68e0e10
   languageName: node
   linkType: hard
 
@@ -10085,9 +10085,9 @@ __metadata:
   resolution: "paperplane-docs@workspace:."
   dependencies:
     "@docusaurus/core": "npm:3.4.0"
-    "@docusaurus/module-type-aliases": "npm:3.5.0"
+    "@docusaurus/module-type-aliases": "npm:3.5.1"
     "@docusaurus/preset-classic": "npm:3.4.0"
-    "@docusaurus/tsconfig": "npm:3.5.0"
+    "@docusaurus/tsconfig": "npm:3.5.1"
     "@mdx-js/react": "npm:^3.0.1"
     "@snowcrystals/prettier-config": "npm:^1.0.0"
     clsx: "npm:^2.1.1"
